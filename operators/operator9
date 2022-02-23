@@ -1,0 +1,2 @@
+let akhilesh=20;
+console.log("akhilesh is eligible for Vote? ",akhilesh>=18 && akhilesh<=60);

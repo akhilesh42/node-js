@@ -1,0 +1,3 @@
+const a="Hey this is akhilesh";
+let b=a.concat(' konathala');
+console.log(b);

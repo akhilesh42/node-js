@@ -1,0 +1,2 @@
+let  a=' konathala ',b='akhilesh ',c='Happy ';
+console.log("I am "+c ,"and my name is" +a +b);

@@ -1,0 +1,2 @@
+let name='akhilesh';
+console.log(`${name} konathala is good boy`);
