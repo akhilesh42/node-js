@@ -1,0 +1,25 @@
+//A SyntaxError is thrown if you try to evaluate code with a syntax error.
+try {
+    eval("alert('Hello)");   // Missing ' will produce an error
+  }
+  catch(err) {
+     console.log(err.name);
+  }
+  
+  /*A TypeError is thrown if you use a value that is outside the range of expected types:
+  let num = 1;
+  try {
+    num.toUpperCase();   // You cannot convert a number to upper case
+  }
+  catch(err) {
+    console.log(err.name);
+  }*/
+
+  /*A URIError is thrown if you use illegal characters in a URI function:
+  try {
+    decodeURI("%%%");   // You cannot URI decode percent signs
+  }
+  catch(err) {
+    document.getElementById("demo").innerHTML = err.name;
+  }*/
+  

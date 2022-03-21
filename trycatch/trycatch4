@@ -1,0 +1,25 @@
+// we use try catch for handling exception.
+//The try statement defines a code block to run (to try).
+//The catch statement defines a code block to handle any error.
+//The finally statement defines a code block to run regardless of the result.
+//The throw statement defines a custom error.
+let a = 'I am learning Node';
+a = undefined;
+if (a != undefined) {
+    throw new Error('This is not undefined');
+}
+else {
+    console.log('This is undefined');
+}
+try {
+    console.log('we are inside try block');
+    functionLearn();
+} catch (error) {
+    console.log(error);
+    console.log('Are you okay?');
+    console.log(error.name);
+    console.log(error.message);
+}
+finally {
+    console.log('we will run this');
+}

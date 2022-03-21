@@ -1,0 +1,9 @@
+//A RangeError is thrown if you use a number that is outside the range of legal values.
+//For example: You cannot set the number of significant digits of a number to 500.
+
+let number=1;
+try {
+ number.toPrecision(500);// A number cannot have 500 significant digit.
+} catch (error) {
+ console.log(error.name);   
+}

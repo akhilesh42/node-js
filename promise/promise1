@@ -1,0 +1,7 @@
+console.log('initial');
+
+setTimeout(()=>{
+    console.log('inside');
+}, 1000);
+
+console.log('outside');

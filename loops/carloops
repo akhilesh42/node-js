@@ -1,0 +1,7 @@
+let cars=[`BMW`, `Mercedies`, `ford`, `honda`, `minicooper`];
+let text = "";
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+  console.log(text);
+  //console.log(cars.length);
+}
